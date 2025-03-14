@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-13 22:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: rockcannoncms/templates/about.html:10 rockcannoncms/templates/about.html:14
+#: rockcannoncms/templates/layout.html:32 rockcannoncms/urls.py:9
+msgid "about"
+msgstr ""
+
+#: rockcannoncms/templates/layout.html:20
+msgid "rock cannons"
+msgstr ""
+
+#: rockcannoncms/templates/layout.html:29 rockcannoncms/templates/map.html:10
+#: rockcannoncms/templates/map.html:14
+msgid "map"
+msgstr ""
+
+#: rockcannoncms/templates/layout.html:35
+#: rockcannoncms/templates/rc_list.html:9
+#: rockcannoncms/templates/rc_list.html:14 rockcannoncms/urls.py:10
+msgid "list"
+msgstr ""
+
+#: rockcannoncms/templates/rc_detail.html:9
+msgid "rock"
+msgstr ""
+
+#: rockcannoncms/templates/rc_detail.html:13
+msgid "this_is_rock_cannon_number_x"
+msgstr ""
+
+#: rockcannoncms/templates/rc_list.html:18
+msgid "Name"
+msgstr ""
+
+#: rockcannoncms/urls.py:11
+msgid "rock/<int:rc_id>"
+msgstr ""

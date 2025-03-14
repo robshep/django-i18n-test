@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% load i18n %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% trans "rock"|title  %}{% endblock %}</title>
+</head>
+<body>
+{% block content %}
+<h1>{{ rc.name}}</h1>
+    <p>{% trans "rock"|title  %}-{{ rc_id }}</p>
+    <p>
+
+    <!-- NOTE 16 as there is only two langs, this is OK, probably a better pattern -->
+    <!--
+    {% if LANGUAGE_CODE == 'cy' %}
+    {{ rc.desc_cy }}
+    {% else %}
+    {{ rc.desc_en }}
+    {% endif %}
+    </p>
+{% endblock %}
+</body>
+</html>

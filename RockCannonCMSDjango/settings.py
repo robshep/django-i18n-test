@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
 # NOTE 02 set default to english
-LANGUAGE_CODE = 'en-gb'
+LANGUAGE_CODE = 'en'
 
 # NOTE 03 add list of languages
 LANGUAGES = [
